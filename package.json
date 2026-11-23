@@ -1,0 +1,20 @@
+{
+  "name": "nervatech-website",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "engines": { "node": ">=18.17" },
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "start": "node server.js",
+    "dev": "node scripts/build.mjs && node server.js",
+    "test": "node scripts/test.mjs"
+  },
+  "devDependencies": {
+    "@fontsource/inter": "^5.0.0",
+    "@fontsource/manrope": "^5.0.0",
+    "esbuild": "^0.21.5",
+    "gsap": "3.12.5",
+    "three": "0.128.0"
+  }
+}
